@@ -58,3 +58,6 @@ git branch -M main
 git push -u origin main
 ```
 
+```bash
+git add .  && git commit -m " README.md updated" && git push origin main
+```
