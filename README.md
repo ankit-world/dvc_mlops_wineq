@@ -61,3 +61,29 @@ git push -u origin main
 ```bash
 git add .  && git commit -m " README.md updated" && git push origin main
 ```
+
+
+tox command
+```bash
+tox
+```
+
+for rebuilding
+```bash
+tox -r
+```
+
+pytest command
+```bash
+pytest -v
+```
+
+setup commands
+```bash
+pip install -e.
+```
+
+build your own package
+```bash
+python setup.py install sdist bdist_wheel
+```
